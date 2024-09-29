@@ -1,0 +1,144 @@
+/* LoginSignup Form Styling section */
+
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    outline:none;
+}
+
+:root{
+    
+    --primary-font-family:"SUSE", sans-serif;
+}
+
+body{
+    font-family: var(--primary-font-family);
+    background: linear-gradient(45deg,#2a00b7,#42006c);
+
+    height: 100vh;
+  
+
+}
+
+.icon{
+    inline-size:20px;
+    filter:invert(100%);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 200px;
+    width:600px;  
+    background-color:#EEEEFF;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    margin-top: 20px;
+    width: 100%;
+}
+.text{
+    color: #3c009d;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+.underline{
+    width: 60px;
+    height: 5px;
+    background-color: #3c009d;
+    border-radius: 5px;
+
+}
+.inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+   
+}
+.input{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 480px;
+    height: 80px;
+    background-color: #eaeaea;
+    border-radius: 6px;
+    border:2px solid white;
+
+   
+}
+.input img{
+    margin: 0px 30px;
+}
+.input input{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+    color:#4c00b4;
+}
+.forgot-password{
+    display: flex;
+    justify-content: start;
+    gap:10px;
+    padding-left: 62px;
+    margin-top: 27px;
+    color: #797979;
+    font-size: 18px;
+}
+.forgot-password span{
+    color: #4c00b4;
+    cursor: pointer;
+}
+.submit-container{
+    inline-size:fit-content; 
+    margin-inline:auto;
+    margin-block-start:20px;
+    padding-block:1rem;
+    padding-inline:2rem;
+    cursor: pointer;
+    display: flex;
+    gap:50px;
+    align-items: center;
+   
+}
+.submit{
+    inline-size: fit-content;
+    border:2px solid lightgray;
+    border-radius: 50px;
+    padding-inline: 20px;
+    padding-block: 11px;
+
+    color:#fff;
+    background-color:gray;
+    
+    font-size:1.3rem;
+    font-weight: 600;
+    line-height: 20px;
+
+}
+.submit:hover{
+    background-color:#4c00b4;
+    box-shadow: 0px 0px 6px 0px #a775ed;
+}
+
+::placeholder{
+    color:#4c00b4;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
